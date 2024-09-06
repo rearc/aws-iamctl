@@ -136,7 +136,7 @@ def main():
     harvest_parser = subparsers.add_parser('harvest', help='Downloads the IAM Roles, policies expands glob patterns, matches resources to service actions and writes the output as csv to default <user_home>/aws-idt directory with a time based folder structure')
     harvest_parser.add_argument('profile_name', help='AWS CLI Profile Name for Account-1')
     harvest_parser.add_argument('account_name', help='Account-1 Tag [Without any Spaces]')
-    harvest_parser.add_argument('--output',dest ='output', help='Output directory location where files will be written to')
+    harvest_parser.add_argument('--output', '-o', dest ='output', help='Output directory location where files will be written to')
 
     diff_parser = subparsers.add_parser('diff', help='Compares the two accounts supplied as input for differences in IAM roles, policies by first harvesting from both accounts and then applying the equivalency list string patterns to ignore known false positive triggers. Write several summary level and granular observations to files to the default <user_home>/aws-idt directory with a time based folder structure ')
     diff_parser.add_argument('profile_name_1', help='AWS CLI Profile Name for Account-1')

@@ -319,7 +319,7 @@ SOFTWARE.
 
 ------
 
-** six; version 1.12.0 -- https://pypi.python.org/pypi/six/1.11.0
+** six; version 1.16.0 -- https://pypi.python.org/pypi/six/1.16.0
 Copyright (c) 2010-2017 Benjamin Peterson
 
 Copyright (c) 2010-2017 Benjamin Peterson

@@ -28,7 +28,7 @@ requires = [
     'python-dateutil==2.8.0',
     's3transfer==0.7.0',
     'setuptools-scm==3.3.3',
-    'six==1.12.0',
+    'six==1.16.0',
     'terminaltables==3.1.0',
     'urllib3==2.0.7'
 ]
